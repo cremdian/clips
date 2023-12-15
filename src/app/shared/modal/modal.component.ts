@@ -14,7 +14,7 @@ export class ModalComponent implements OnInit {
     public modal: ModalService, 
     public el: ElementRef
   ) { 
-    
+    console.log(el)
   }
 
   ngOnInit(): void {
